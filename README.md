@@ -27,7 +27,7 @@ npm run start:dev
 
 
 
-## Launching Client application
+## Installation Client application
 
 <div style="padding-left: 40px">
 
@@ -37,7 +37,7 @@ Open terminal in __./client__ folder and run
 npm install
 ```
 
-### Lounch for development
+### Lauch for development
 Open terminal in __./client__ folder and run 
 ```
 npm start
