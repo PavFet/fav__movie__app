@@ -24,7 +24,7 @@ module.exports = {
     '@stylistic/ts',
   ],
   "rules": {
-    "@typescript-eslint/no-empty-interface": false,
+    "@typescript-eslint/no-empty-interface": [0],
     '@stylistic/ts/indent': ['error', 2],
     "no-restricted-imports": "off",
     "@typescript-eslint/no-restricted-imports": [
