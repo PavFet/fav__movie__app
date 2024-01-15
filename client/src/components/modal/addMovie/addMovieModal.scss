@@ -1,0 +1,44 @@
+@import '../../../styles/vars.scss';
+
+@keyframes ModalAnim {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.modal {
+  display: none;
+  position: absolute;
+  top: -16px;
+  right: 11px;
+  animation: ModalAnim 0.5s ease-in;
+}
+
+.modal-content {
+  border-radius: 5px;
+  background-color: $yellow;
+  text-align: center;
+  position: relative;
+  p {
+    font-size: 10px;
+    color: black;
+    padding: 4px;
+  }
+  div {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    background-color: $yellow;
+    width: 10px;
+    height: 10px;
+    border-bottom-left-radius: 100%;
+  }
+}
+
+.visible {
+  display: block;
+}

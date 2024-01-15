@@ -1,0 +1,29 @@
+
+
+.star__block {
+  height: 100%;
+  font-size: 15px; /* Adjust the font size as needed */
+  color: transparent !important;
+  -webkit-background-clip: text !important; 
+}
+
+
+
+
+.star--yellow {
+  color: yellow;
+}
+
+.star--white {
+  color: white;
+}
+
+.star--linear {
+  -webkit-background-clip: text !important; 
+}
+
+.rating {
+  color: white;
+  padding-left: 5px;
+}
+

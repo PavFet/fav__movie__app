@@ -1,0 +1,19 @@
+@import '../../styles/vars.scss';
+
+.main__block {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  p {
+    color: white;
+  }
+}
+
+.error {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  
+  animation: showUpAnim 1s normal;
+}

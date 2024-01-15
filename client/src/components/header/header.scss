@@ -1,0 +1,60 @@
+@import '../../styles/vars.scss';
+
+header {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+nav .navigation{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.navigation li {
+  display: flex;
+  align-items: center;
+}
+
+.navigation li  {
+  a, button {
+    color: $yellow;
+  background: black;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  cursor: pointer;
+  }
+}
+
+.logo {
+  background: $yellow;
+  padding: 4px;
+  border-radius: 2px;
+  font-weight: bolder;
+  cursor: default;
+}
+
+.welcome {
+  color: white;
+  font-size: 10px;
+  cursor: default;
+
+}
+
+.your__list  {
+  position: relative;
+  span {
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    color:black;
+    background-color: $yellow;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 8px;
+    cursor: default;
+  }
+  
+}

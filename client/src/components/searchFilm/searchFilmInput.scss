@@ -1,0 +1,44 @@
+@import '../../styles/vars.scss';
+
+.search__block {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  form {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    .search__block--title {
+      padding-left: 10px;
+      height: 100%;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+    }
+    input, textarea {
+      outline: none;
+    }
+    .search__block--title::placeholder {
+      text-align: start;
+    }
+    button {
+      transform: scaleY(-1) scaleX(-1);
+      height: 100%;
+      width: 20px;
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      background-color: $yellow;
+
+      font-size: 25px;
+      text-align: center;
+    }
+  }
+}
+
+.search__block--title {
+  width: 200px;
+}
+
+.search__block--year {
+  width: 50px;
+  height: 100%;
+}

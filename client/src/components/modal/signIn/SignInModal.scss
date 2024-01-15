@@ -1,0 +1,70 @@
+@import '../../../styles/vars.scss';
+
+.modal__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(33, 32, 32, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: black;
+  width: 200px;
+  padding: 30px 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  input {
+    padding: 10px;
+  }
+
+  .modal__content__login--btn {
+    width: auto;
+    margin: 0 auto;
+    background: $yellow;
+    border-radius: 2px;
+    padding: 5px 8px;
+  }
+
+  .modal__content__login--btn:hover {
+    background: $yellow--darker;
+
+    transition: all 0.3s ease;
+  }
+}
+
+.modal__content__form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.close__modal--btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: black;
+  color: $yellow;
+}
+
+
+.show__password {
+  position: absolute;
+  top: 106px;
+  right: 20px;
+  button {
+    background: white;
+    font-size: 20px;
+  }
+
+}

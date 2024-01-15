@@ -1,0 +1,117 @@
+@import '../../styles/vars.scss';
+
+.showAnimation {
+  animation: showUpAnim 1s normal;
+}
+
+.favorite__page__movie__block {
+  display: flex;
+  justify-content: center;
+}
+
+.movie__card {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+
+  .movie__discription {
+    width: 200px;
+  }
+
+
+  .movie__poster {
+    z-index: 100;
+    position: relative;
+    img {
+    width: 150px;
+    height: 200px;
+    position: relative;
+    }
+  }
+}
+
+.favorite__icon {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  color: $yellow;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.movie__title  {
+  color: white; 
+}
+
+.movie__duration__genre {
+  color: white;
+  font-size: 10px;
+}
+
+.movie__rating {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+
+
+.star__block {
+  height: 100%;
+  font-size: 24px; /* Adjust the font size as needed */
+  color: transparent !important;
+  -webkit-background-clip: text !important; 
+}
+
+.movie__actors {
+  color: white;
+  font-size: 15px;
+}
+
+.movie__plot {
+  padding-top: 10px;
+  color: white;
+  font-size: 12px;
+}
+
+
+.movie__disc__expansion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+
+  button {
+    background-color: inherit;
+    color: $yellow;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  
+}
+
+.animation--showUp {
+  animation: showUpAnim 1s normal;
+}
+
+.arrow--up {
+  transform: rotate(180deg);
+  transition: transform 1s normal;
+}
+
+.arrow--down {
+  transform: rotate(360deg);
+  transition: transform 1s normal;
+}
+
+.movie__delete {
+  padding-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    background-color: inherit;
+    color: $yellow;
+  }
+}

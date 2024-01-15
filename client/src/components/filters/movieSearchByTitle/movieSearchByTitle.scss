@@ -1,0 +1,16 @@
+@import '../../../styles/vars.scss';
+.input__search  {
+  background-color: $yellow;
+  width: 100px;
+  textarea {
+    outline: none;
+  }
+}
+
+.form__search button {
+    background-color: $yellow;
+}
+
+.input__search::placeholder {
+  color: black;
+}
