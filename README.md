@@ -31,7 +31,6 @@ npm run start:dev
 
 <div style="padding-left: 40px">
 
-### Installation
 Open terminal in __./client__ folder and run 
 ```
 npm install
